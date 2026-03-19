@@ -1,7 +1,7 @@
-package com.jx.AIPlattform.exception;
+package com.jx.AIPlatform.exception;
 
-import com.jx.AIPlattform.common.BaseResponse;
-import com.jx.AIPlattform.common.ResultUtils;
+import com.jx.AIPlatform.common.BaseResponse;
+import com.jx.AIPlatform.common.ResultUtils;
 import io.swagger.v3.oas.annotations.Hidden;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;

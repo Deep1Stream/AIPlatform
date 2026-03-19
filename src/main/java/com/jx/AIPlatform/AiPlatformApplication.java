@@ -1,13 +1,13 @@
-package com.jx.AIPlattform;
+package com.jx.AIPlatform;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AiPlattformApplication {
+public class AiPlatformApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AiPlattformApplication.class, args);
+        SpringApplication.run(AiPlatformApplication.class, args);
     }
 
 }

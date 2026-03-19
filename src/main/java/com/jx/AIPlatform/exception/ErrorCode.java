@@ -1,4 +1,4 @@
-package com.jx.AIPlattform.exception;
+package com.jx.AIPlatform.exception;
 
 import lombok.Getter;
 

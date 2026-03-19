@@ -1,6 +1,6 @@
-package com.jx.AIPlattform.common;
+package com.jx.AIPlatform.common;
 
-import com.jx.AIPlattform.exception.ErrorCode;
+import com.jx.AIPlatform.exception.ErrorCode;
 
 public class ResultUtils {
 

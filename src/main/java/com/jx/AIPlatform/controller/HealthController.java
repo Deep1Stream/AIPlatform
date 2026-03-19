@@ -1,7 +1,7 @@
-package com.jx.AIPlattform.controller;
+package com.jx.AIPlatform.controller;
 
-import com.jx.AIPlattform.common.BaseResponse;
-import com.jx.AIPlattform.common.ResultUtils;
+import com.jx.AIPlatform.common.BaseResponse;
+import com.jx.AIPlatform.common.ResultUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

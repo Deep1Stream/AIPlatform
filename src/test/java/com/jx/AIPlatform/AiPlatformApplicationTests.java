@@ -1,10 +1,10 @@
-package com.jx.AIPlattform;
+package com.jx.AIPlatform;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AiPlattformApplicationTests {
+class AiPlatformApplicationTests {
 
     @Test
     void contextLoads() {

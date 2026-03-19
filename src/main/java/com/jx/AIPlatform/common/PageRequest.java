@@ -1,4 +1,4 @@
-package com.jx.AIPlattform.common;
+package com.jx.AIPlatform.common;
 
 import lombok.Data;
 
