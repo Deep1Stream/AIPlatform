@@ -1,6 +1,13 @@
 spring:
   application:
     name: AIPlatform
+  # mysql
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/AIPlatformDataBase
+    username: root
+    password: jxjx8023jx
+
 server:
   port: 7002
   servlet:
