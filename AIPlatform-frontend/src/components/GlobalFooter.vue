@@ -3,12 +3,12 @@
     <div class="footer-content">
       <p class="copyright">
         <a
-          href="https://www.codefather.cn"
+          href="https://github.com/Yennerfer18/AIPlatform"
           target="_blank"
           rel="noopener noreferrer"
           class="author-link"
         >
-          编程导航原创项目 by 程序员鱼皮
+          DeepSteamAI零代码生成平台项目
         </a>
       </p>
     </div>
