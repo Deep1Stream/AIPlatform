@@ -27,7 +27,7 @@ public interface UserConstant {
     /**
      * 最短密码长度
      */
-    int MIN_PASSWORD_LENGTH = 6;
+    int MIN_PASSWORD_LENGTH = 8;
 
     // endregion
 }

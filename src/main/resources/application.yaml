@@ -7,7 +7,8 @@ spring:
     url: jdbc:mysql://localhost:3306/AIPlatformDataBase
     username: root
     password: jxjx8023jx
-
+  profiles:
+    active: local
 server:
   port: 7002
   servlet:
