@@ -4,7 +4,7 @@ import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.util.StrUtil;
 import com.jx.AIPlatform.exception.BusinessException;
 import com.jx.AIPlatform.exception.ErrorCode;
-import com.jx.AIPlatform.model.dto.UserQueryRequest;
+import com.jx.AIPlatform.model.dto.user.UserQueryRequest;
 import com.jx.AIPlatform.model.enums.UserRoleEnum;
 import com.jx.AIPlatform.model.vo.LoginUserVO;
 import com.jx.AIPlatform.model.vo.UserVO;

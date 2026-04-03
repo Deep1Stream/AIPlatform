@@ -1,7 +1,6 @@
 package com.jx.AIPlatform.service;
 
-import cn.hutool.http.server.HttpServerRequest;
-import com.jx.AIPlatform.model.dto.UserQueryRequest;
+import com.jx.AIPlatform.model.dto.user.UserQueryRequest;
 import com.jx.AIPlatform.model.vo.LoginUserVO;
 import com.jx.AIPlatform.model.vo.UserVO;
 import com.mybatisflex.core.query.QueryWrapper;
