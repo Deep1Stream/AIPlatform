@@ -12,7 +12,7 @@ import java.util.Map;
 public class MybatisCodeGenerator {
 
 //    要生成的表名
-    public static final String[] TABEL_NAMES = {"user"};
+    public static final String[] TABEL_NAMES = {"app"};
 
     public static void main(String[] args) {
         //配置数据源
