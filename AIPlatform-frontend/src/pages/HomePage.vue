@@ -573,4 +573,9 @@ onMounted(() => {
     justify-content: center;
   }
 }
+
+#homePage {
+  --mouse-x: 50%;
+  --mouse-y: 50%;
+}
 </style>
