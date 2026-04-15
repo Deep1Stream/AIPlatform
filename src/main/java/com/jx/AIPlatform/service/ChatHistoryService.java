@@ -1,0 +1,41 @@
+package com.jx.AIPlatform.service;
+
+import com.jx.AIPlatform.model.dto.chathistory.ChatHistoryQueryRequest;
+import com.jx.AIPlatform.model.entity.User;
+import com.mybatisflex.core.paginate.Page;
+import com.mybatisflex.core.query.QueryWrapper;
+import com.mybatisflex.core.service.IService;
+import com.jx.AIPlatform.model.entity.ChatHistory;
+
+import java.time.LocalDateTime;
+
+/**
+ * 对话历史 服务层。
+ *
+ * @author JX
+ */
+public interface ChatHistoryService extends IService<ChatHistory> {
+
+    /**
+     * 添加消息记录
+     * @param appId 应用id
+     * @param message 消息
+     * @param messageType 消息类型
+     * @param userId 用户id
+     * @return 是否成功
+     */
+    boolean addChatMessage(Long appId, String message, String messageType, Long userId);
+
+    /**
+     * 根据应用id删除对话历史
+     * @param appId
+     * @return
+     */
+    boolean deleteByAppId(Long appId);
+
+    Page<ChatHistory> listAppChatHistoryByPage(Long appId, int pageSize,
+                                               LocalDateTime lastCreateTime,
+                                               User loginUser);
+
+    QueryWrapper getQueryWrapper(ChatHistoryQueryRequest chatHistoryQueryRequest);
+}
