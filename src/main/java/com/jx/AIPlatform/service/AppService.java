@@ -1,5 +1,6 @@
 package com.jx.AIPlatform.service;
 
+import com.jx.AIPlatform.model.dto.app.AppAddRequest;
 import com.jx.AIPlatform.model.dto.app.AppQueryRequest;
 import com.jx.AIPlatform.model.entity.User;
 import com.jx.AIPlatform.model.vo.AppVO;
@@ -16,6 +17,14 @@ import java.util.List;
  * @author JX
  */
 public interface AppService extends IService<App> {
+
+    /**
+     * 创建应用
+     * @param appAddRequest
+     * @param loginUser
+     * @return
+     */
+    Long createApp(AppAddRequest appAddRequest, User loginUser);
 
     /**
      * 获取应用封装类
