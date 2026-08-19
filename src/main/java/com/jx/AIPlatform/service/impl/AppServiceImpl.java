@@ -77,7 +77,7 @@ public class AppServiceImpl extends ServiceImpl<AppMapper, App>  implements AppS
         // 2.查询应用信息
         App app = this.getById(appId);
         ThrowUtils.throwIf(app == null, ErrorCode.NOT_FOUND_ERROR, "应用不存在");
-        // 3.权限校验，金本人可以和自己的应用对话
+        // 3.权限校验，仅本人可以和自己的应用对话
         if (!app.getUserId().equals(loginUser.getId())) {
             throw new BusinessException(ErrorCode.NO_AUTH_ERROR, "无权限访问应用");
         }
